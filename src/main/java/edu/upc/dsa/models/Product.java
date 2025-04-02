@@ -12,6 +12,7 @@ public class Product {
         this.price = price;
         this.sales = 0;
     }
+    public Product() {}
 
     public int sales() {
         return this.sales;
